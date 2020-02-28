@@ -12,6 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+### LaunchDarkly
+
+This project was designed to show a prospect the ability to dynamically change a menu-item in real time (their specific use case). This project is currently hard-coded to a specific environment SDK, and operates by flipping the flag marked "devTestFlag" (key: dev-test-flag), which exists in the SupportService project. 
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
